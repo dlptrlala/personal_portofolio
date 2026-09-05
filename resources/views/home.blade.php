@@ -13,7 +13,7 @@
             <h1>
                 Margareta
                 <br>
-                <span>Novianti</span>
+                <span>Novianti Adilaputri</span>
             </h1>
 
             <h2>
@@ -165,31 +165,6 @@
                 </p>
 
             </article>
-
-        </div>
-
-
-        <!-- COLLABORATION & PROBLEM SOLVING -->
-
-        <div class="about-strength">
-
-            <div class="about-strength-icon">
-                <i class="fa-solid fa-lightbulb"></i>
-            </div>
-
-            <div class="about-strength-content">
-
-                <h3>
-                    Collaboration & Problem Solving
-                </h3>
-
-                <p>
-                    Translating requirements into working features,
-                    collaborating in small teams, and structuring
-                    solutions to real-world problems.
-                </p>
-
-            </div>
 
         </div>
 
