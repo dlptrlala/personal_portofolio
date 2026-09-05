@@ -1,6 +1,6 @@
 @extends('admin.layouts.app')
 
-@section('title', 'CV')
+<!-- @section('title', 'CV') -->
 @section('heading', 'My CV')
 
 @section('content')

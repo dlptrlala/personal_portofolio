@@ -8,8 +8,7 @@
     <meta name="description" content="Personal portfolio Margareta Novianti Adilaputri">
 
     <title>
-        @yield('title', 'Portfolio')
-        | Margareta
+        Margareta Novianti A
     </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +47,7 @@
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="{{ route('home') }}#home">Home</a></li>
                 <li><a href="{{ route('home') }}#about">About Me</a></li>
-                <li><a href="{{ route('home') }}#services">Services</a></li>
+                <li><a href="{{ route('home') }}#services">Skills</a></li>
                 <li><a href="{{ route('home') }}#projects">Projects</a></li>
                 <li><a href="{{ route('home') }}#contact">Contact</a></li>
 
@@ -69,11 +68,11 @@
                     </a> -->
                     @if($resume)
 
-                        <a
-                            href="{{ route('resume.download') }}"
-                            class="btn btn-small">
-                            Download CV
-                        </a>
+                    <a
+                        href="{{ route('resume.download') }}"
+                        class="btn btn-small">
+                        Download CV
+                    </a>
 
                     @endif
                 </li>
@@ -106,7 +105,7 @@
             <div class="footer-nav">
                 <a href="{{ route('home') }}#home">Home</a>
                 <a href="{{ route('home') }}#about">About Me</a>
-                <a href="{{ route('home') }}#services">Services</a>
+                <a href="{{ route('home') }}#services">Skills/a>
                 <a href="{{ route('home') }}#projects">Projects</a>
                 <a href="{{ route('home') }}#contact">Contact</a>
             </div>
