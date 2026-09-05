@@ -53,6 +53,13 @@
                     Profile
                 </a>
 
+                <a
+                    href="{{ route('admin.resume.edit') }}"
+                    class="{{ request()->routeIs('admin.resume.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    CV
+                </a>
+
                 <a href="{{ route('home') }}" target="_blank">
                     <i class="fa-solid fa-globe"></i>
                     View Website

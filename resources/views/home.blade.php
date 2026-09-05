@@ -61,19 +61,19 @@
             </div>
 
             <div class="socials">
-                <a href="https://github.com/username" target="_blank" rel="noopener">
+                <a href="https://github.com/dlptrlala" target="_blank" rel="noopener">
                     <i class="fa-brands fa-github"></i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/username/" target="_blank" rel="noopener">
+                <a href="https://www.linkedin.com/in/margareta-novianti-adilaputri-2a0340247" target="_blank" rel="noopener">
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
 
-                <a href="https://www.instagram.com/username/" target="_blank" rel="noopener">
+                <a href="https://www.instagram.com/marg.dilaaaa/" target="_blank" rel="noopener">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
 
-                <a href="mailto:emailkamu@example.com">
+                <a href="mailto:margaretanovianti79@gmail.com">
                     <i class="fa-solid fa-envelope"></i>
                 </a>
             </div>
@@ -513,14 +513,14 @@
         <div class="contact-buttons">
 
             <a
-                href="mailto:emailkamu@example.com"
+                href="mailto:margaretanovianti79@gmail.com"
                 class="btn">
                 <i class="fa-solid fa-envelope"></i>
                 Email Me
             </a>
 
             <a
-                href="https://www.linkedin.com/in/username/"
+                href="https://www.linkedin.com/in/margareta-novianti-adilaputri-2a0340247"
                 target="_blank"
                 rel="noopener"
                 class="btn btn-outline">
@@ -529,7 +529,7 @@
             </a>
 
             <a
-                href="https://github.com/username"
+                href="https://github.com/dlptrlala"
                 target="_blank"
                 rel="noopener"
                 class="btn btn-outline">
