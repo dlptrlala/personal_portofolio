@@ -83,176 +83,314 @@
 </section>
 
 
-<section class="about section" id="about">
-    <div class="container about-grid">
+<section class="about-section section" id="about">
 
-        <div class="about-image">
-            <div class="photo-frame">
-                <!-- <img
-                    src="{{ asset('assets/images/profile-2.jpg') }}"
-                    alt="Margareta"> -->
-                @if($profile?->about_image)
+    <div class="container">
 
-                <div
-                    class="about-photo"
-                    style="
-                        --position-x: {{ $profile->about_position_x }}%;
-                        --position-y: {{ $profile->about_position_y }}%;
-                        --rotation: {{ $profile->about_rotation }}deg;
-                    ">
-                    <img
-                        src="{{ asset('storage/' . $profile->about_image) }}"
-                        alt="Margareta">
-                </div>
+        <div class="about-heading">
 
-                @endif
-            </div>
-        </div>
-
-        <div class="about-content">
-            <p class="section-label">Get To Know Me</p>
+            <p class="section-label">
+                Get To Know Me
+            </p>
 
             <h2 class="section-title">
                 About Me
             </h2>
 
-            <p>
-                I am an Informatics student at Sanata Dharma University
-                with an interest in data, software development,
-                and building practical digital products.
+            <p class="about-intro">
+                I am an Informatics student with an interest in
+                software development, databases, and machine learning.
+                I enjoy turning requirements and ideas into structured,
+                practical, and user-friendly digital solutions.
             </p>
 
-            <p>
-                I have worked with Python, Java, PHP, HTML/CSS, SQL,
-                Excel, Power BI, and several machine-learning tools.
-                I enjoy learning new technologies and paying attention
-                to details when working on a project.
-            </p>
-
-            <div class="skills">
-
-                <div class="skill">
-                    <div class="skill-info">
-                        <span>Python &amp; Data Analysis</span>
-                        <span>85%</span>
-                    </div>
-
-                    <div class="progress">
-                        <span style="width:85%"></span>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-info">
-                        <span>SQL &amp; Database</span>
-                        <span>80%</span>
-                    </div>
-
-                    <div class="progress">
-                        <span style="width:80%"></span>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-info">
-                        <span>Web Development</span>
-                        <span>75%</span>
-                    </div>
-
-                    <div class="progress">
-                        <span style="width:75%"></span>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-info">
-                        <span>Machine Learning</span>
-                        <span>80%</span>
-                    </div>
-
-                    <div class="progress">
-                        <span style="width:80%"></span>
-                    </div>
-                </div>
-
-            </div>
         </div>
 
-    </div>
-</section>
 
+        <div class="about-cards">
 
-<section class="services section" id="services">
-    <div class="container">
+            <!-- WEB DEVELOPMENT -->
+            <article class="about-card">
 
-        <div class="section-heading">
-            <p class="section-label">What I Can Do</p>
-
-            <h2 class="section-title">
-                Services
-            </h2>
-
-            <p>
-                Some areas where I can contribute to a project or team.
-            </p>
-        </div>
-
-        <div class="service-grid">
-
-            <article class="service-card">
-                <div class="service-icon">
-                    <i class="fa-solid fa-chart-line"></i>
-                </div>
-
-                <h3>Data Analysis</h3>
-
-                <p>
-                    Data cleaning, exploration, visualization,
-                    and extracting useful insights from datasets.
-                </p>
-            </article>
-
-            <article class="service-card">
-                <div class="service-icon">
-                    <i class="fa-solid fa-brain"></i>
-                </div>
-
-                <h3>Machine Learning</h3>
-
-                <p>
-                    Building and evaluating classification models
-                    using Python and machine-learning libraries.
-                </p>
-            </article>
-
-            <article class="service-card">
-                <div class="service-icon">
-                    <i class="fa-solid fa-database"></i>
-                </div>
-
-                <h3>Database &amp; SQL</h3>
-
-                <p>
-                    Working with relational databases, SQL queries,
-                    data manipulation, and database concepts.
-                </p>
-            </article>
-
-            <article class="service-card">
-                <div class="service-icon">
+                <div class="about-card-icon">
                     <i class="fa-solid fa-code"></i>
                 </div>
 
-                <h3>Web Development</h3>
+                <h3>
+                    Web Development
+                </h3>
 
                 <p>
-                    Creating responsive web interfaces and applications
-                    using HTML, CSS, JavaScript, PHP, and Laravel.
+                    Creating web applications and interfaces using
+                    HTML, CSS, JavaScript, PHP, and Laravel.
                 </p>
+
+            </article>
+
+
+            <!-- DATABASE & SQL -->
+            <article class="about-card">
+
+                <div class="about-card-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <h3>
+                    Database & SQL
+                </h3>
+
+                <p>
+                    Writing SQL queries, managing relational data,
+                    and implementing CRUD operations.
+                </p>
+
+            </article>
+
+
+            <!-- MACHINE LEARNING -->
+            <article class="about-card">
+
+                <div class="about-card-icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+
+                <h3>
+                    Machine Learning
+                </h3>
+
+                <p>
+                    Building and evaluating classification models
+                    using Python and machine-learning libraries
+                    such as XGBoost.
+                </p>
+
             </article>
 
         </div>
+
+
+        <!-- COLLABORATION & PROBLEM SOLVING -->
+
+        <div class="about-strength">
+
+            <div class="about-strength-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+            </div>
+
+            <div class="about-strength-content">
+
+                <h3>
+                    Collaboration & Problem Solving
+                </h3>
+
+                <p>
+                    Translating requirements into working features,
+                    collaborating in small teams, and structuring
+                    solutions to real-world problems.
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
+
+</section>
+
+
+<section class="skills-section section" id="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="section-label">What I Work With</p>
+
+            <h2 class="section-title">
+                Skills
+            </h2>
+
+            <p>
+                Technologies and tools I use for building digital solutions.
+            </p>
+        </div>
+
+
+        <div class="skills-grid">
+
+            <!-- FRONTEND -->
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+                    <i class="fa-solid fa-code"></i>
+
+                    <h3>Frontend</h3>
+                </div>
+
+                <div class="skill-items">
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-html5"></i>
+                        HTML
+                    </span>
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        CSS
+                    </span>
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-js"></i>
+                        JavaScript
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- FRAMEWORK -->
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+                    <i class="fa-solid fa-layer-group"></i>
+
+                    <h3>Framework</h3>
+                </div>
+
+                <div class="skill-items">
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-laravel"></i>
+                        Laravel
+                    </span>
+
+                    <span class="skill-item">
+                        <i class="fa-solid fa-fire"></i>
+                        CodeIgniter
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- BACKEND -->
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+                    <i class="fa-solid fa-server"></i>
+
+                    <h3>Backend</h3>
+                </div>
+
+                <div class="skill-items">
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-php"></i>
+                        PHP
+                    </span>
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-java"></i>
+                        Java
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- MACHINE LEARNING -->
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+                    <i class="fa-solid fa-brain"></i>
+
+                    <h3>Machine Learning</h3>
+                </div>
+
+                <div class="skill-items">
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-python"></i>
+                        Python
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- TOOLS -->
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+                    <i class="fa-solid fa-toolbox"></i>
+
+                    <h3>Tools</h3>
+                </div>
+
+                <div class="skill-items">
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-git-alt"></i>
+                        Git
+                    </span>
+
+                    <span class="skill-item">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </span>
+
+                    <span class="skill-item">
+                        <span class="skill-text-logo">VS</span>
+                        VS Code
+                    </span>
+
+                    <span class="skill-item">
+                        <span class="skill-text-logo">NB</span>
+                        NetBeans
+                    </span>
+
+                    <span class="skill-item">
+                        <span class="skill-text-logo">F</span>
+                        Figma
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- DATABASE -->
+            <div class="skill-card">
+
+                <div class="skill-card-header">
+                    <i class="fa-solid fa-database"></i>
+
+                    <h3>Database</h3>
+                </div>
+
+                <div class="skill-items">
+
+                    <span class="skill-item">
+                        <i class="fa-solid fa-database"></i>
+                        MySQL
+                    </span>
+
+                    <span class="skill-item">
+                        <i class="fa-solid fa-table"></i>
+                        SQL
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
 
