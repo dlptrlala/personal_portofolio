@@ -45,11 +45,11 @@
             </button>
 
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="{{ route('home') }}#home">Home</a></li>
-                <li><a href="{{ route('home') }}#about">About Me</a></li>
-                <li><a href="{{ route('home') }}#services">Skills</a></li>
-                <li><a href="{{ route('home') }}#projects">Projects</a></li>
-                <li><a href="{{ route('home') }}#contact">Contact</a></li>
+                <li><a href="{{ route('home') }}#home">Beranda</a></li>
+                <li><a href="{{ route('home') }}#about">Tentang Saya</a></li>
+                <li><a href="{{ route('home') }}#services">Keahlian</a></li>
+                <li><a href="{{ route('home') }}#projects">Proyek</a></li>
+                <li><a href="{{ route('home') }}#contact">Kontak</a></li>
 
                 @auth
                 <li>
@@ -103,11 +103,11 @@
             </p>
 
             <div class="footer-nav">
-                <a href="{{ route('home') }}#home">Home</a>
-                <a href="{{ route('home') }}#about">About Me</a>
-                <a href="{{ route('home') }}#services">Skills/a>
-                <a href="{{ route('home') }}#projects">Projects</a>
-                <a href="{{ route('home') }}#contact">Contact</a>
+                <a href="{{ route('home') }}#home">Beranda</a>
+                <a href="{{ route('home') }}#about">Tentang Saya</a>
+                <a href="{{ route('home') }}#services">Keahlian</a>
+                <a href="{{ route('home') }}#projects">Proyek</a>
+                <a href="{{ route('home') }}#contact">Kontak</a>
             </div>
 
             <div class="footer-socials">

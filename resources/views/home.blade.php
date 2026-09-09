@@ -8,7 +8,7 @@
     <div class="container hero-grid">
 
         <div class="hero-text">
-            <p class="eyebrow">Hi, I'm</p>
+            <p class="eyebrow">Halo, Saya</p>
 
             <h1>
                 Margareta
@@ -17,21 +17,21 @@
             </h1>
 
             <h2>
-                Informatics Graduate &amp; Aspiring Fullstack Developer.
+                Lulusan Informatika
             </h2>
 
             <p class="hero-description">
-                I enjoy building web applications that solve real problems, with a focus on Back-End Development using PHP and Laravel.
-                I also have experience in Machine Learning through my undergraduate thesis.
+                Saya senang mengembangkan aplikasi web yang memecahkan masalah nyata, 
+                dengan fokus pada pengembangan back-end menggunakan PHP dan Laravel.
             </p>
 
             <div class="hero-buttons">
                 <a href="#projects" class="btn">
-                    View My Projects
+                    Lihat Proyek Saya
                 </a>
 
                 <a href="#contact" class="btn btn-outline">
-                    Contact Me
+                    Hubungi Saya
                 </a>
             </div>
         </div>
@@ -89,20 +89,24 @@
         <div class="about-heading">
 
             <p class="section-label">
-                Get To Know Me
+                Kenali Saya
             </p>
 
             <h2 class="section-title">
-                About Me
+                Tentang Saya
             </h2>
 
             <p class="about-intro">
-                I am a fresh Informatics graduate with a focus on Back-End Development 
-                using PHP and Laravel/CodeIgniter. I've built and delivered real projects, 
-                including an internal company system during my internship that is now actively 
-                used. I enjoy translating requirements into structured, working solutions, and 
-                I have a background in Machine Learning through my undergraduate thesis. I'm 
-                currently seeking opportunities as a Junior Backend/Fullstack Developer.
+                Saya adalah lulusan Informatika yang memiliki fokus pada 
+                pengembangan Backend menggunakan PHP dan Laravel/CodeIgniter. 
+                Saya telah mengembangkan dan menyelesaikan berbagai proyek nyata, 
+                termasuk sistem internal perusahaan selama menjalani program 
+                magang yang hingga saat ini masih digunakan secara aktif. 
+                Saya senang menerjemahkan kebutuhan menjadi solusi yang 
+                terstruktur dan dapat digunakan dengan baik. Selain itu, 
+                saya memiliki pengalaman di bidang Machine Learning melalui 
+                tugas akhir saya. Saat ini, saya sedang mencari kesempatan 
+                untuk berkembang sebagai Junior Backend/Full-Stack Developer.
             </p>
 
         </div>
@@ -122,8 +126,8 @@
                 </h3>
 
                 <p>
-                    Creating web applications and interfaces using
-                    HTML, CSS, JavaScript, PHP, and Laravel.
+                    Membuat aplikasi web dan antarmuka menggunakan HTML, 
+                    CSS, JavaScript, PHP, dan Laravel.
                 </p>
 
             </article>
@@ -141,8 +145,8 @@
                 </h3>
 
                 <p>
-                    Writing SQL queries, managing relational data,
-                    and implementing CRUD operations.
+                    Menulis query SQL, mengelola data relasional, 
+                    dan mengimplementasikan operasi CRUD.
                 </p>
 
             </article>
@@ -160,8 +164,8 @@
                 </h3>
 
                 <p>
-                    Building and evaluating classification models
-                    using Python and machine-learning libraries.
+                    Membangun dan mengevaluasi model klasifikasi 
+                    menggunakan Python dan library Machine Learning.
                 </p>
 
             </article>
@@ -178,14 +182,14 @@
     <div class="container">
 
         <div class="section-heading">
-            <p class="section-label">What I Work With</p>
+            <p class="section-label">Teknologi yang saya gunakan</p>
 
             <h2 class="section-title">
-                Skills
+                Keahlian
             </h2>
 
             <p>
-                Technologies and tools I use for building digital solutions.
+                Teknologi dan tools yang saya gunakan untuk membangun solusi digital.
             </p>
         </div>
 
@@ -373,14 +377,14 @@
     <div class="container">
 
         <div class="section-heading">
-            <p class="section-label">My Recent Work</p>
+            <p class="section-label">Proyek Terbaru</p>
 
             <h2 class="section-title">
-                My Projects
+                Proyek Saya
             </h2>
 
             <p>
-                A selection of projects from my studies and learning journey.
+                Kumpulan proyek yang saya kerjakan selama masa studi dan proses pengembangan keterampilan.
             </p>
         </div>
 
@@ -496,16 +500,16 @@
         <div class="section-heading">
 
             <p class="section-label">
-                Have A Project In Mind?
+                Punya Proyek?
             </p>
 
             <h2 class="section-title">
-                Let's Work Together
+                Mari Bekerja Sama
             </h2>
 
             <p>
-                Feel free to contact me for opportunities,
-                collaboration, or just to say hello.
+                Jangan ragu untuk menghubungi saya terkait peluang kerja, 
+                kolaborasi, atau sekadar menyapa.
             </p>
 
         </div>
@@ -516,7 +520,7 @@
                 href="mailto:margaretanovianti79@gmail.com"
                 class="btn">
                 <i class="fa-solid fa-envelope"></i>
-                Email Me
+                Hubungi Saya
             </a>
 
             <a
