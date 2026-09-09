@@ -21,7 +21,7 @@
             </h2>
 
             <p class="hero-description">
-                Saya senang mengembangkan aplikasi web yang memecahkan masalah nyata, 
+                Saya senang mengembangkan aplikasi web yang memecahkan masalah nyata,
                 dengan fokus pada pengembangan back-end menggunakan PHP dan Laravel.
             </p>
 
@@ -97,15 +97,15 @@
             </h2>
 
             <p class="about-intro">
-                Saya adalah lulusan Informatika yang memiliki fokus pada 
-                pengembangan Backend menggunakan PHP dan Laravel/CodeIgniter. 
-                Saya telah mengembangkan dan menyelesaikan berbagai proyek nyata, 
-                termasuk sistem internal perusahaan selama menjalani program 
-                magang yang hingga saat ini masih digunakan secara aktif. 
-                Saya senang menerjemahkan kebutuhan menjadi solusi yang 
-                terstruktur dan dapat digunakan dengan baik. Selain itu, 
-                saya memiliki pengalaman di bidang Machine Learning melalui 
-                tugas akhir saya. Saat ini, saya sedang mencari kesempatan 
+                Saya adalah lulusan Informatika yang memiliki fokus pada
+                pengembangan Backend menggunakan PHP dan Laravel/CodeIgniter.
+                Saya telah mengembangkan dan menyelesaikan berbagai proyek nyata,
+                termasuk sistem internal perusahaan selama menjalani program
+                magang yang hingga saat ini masih digunakan secara aktif.
+                Saya senang menerjemahkan kebutuhan menjadi solusi yang
+                terstruktur dan dapat digunakan dengan baik. Selain itu,
+                saya memiliki pengalaman di bidang Machine Learning melalui
+                tugas akhir saya. Saat ini, saya sedang mencari kesempatan
                 untuk berkembang sebagai Junior Backend/Full-Stack Developer.
             </p>
 
@@ -126,7 +126,7 @@
                 </h3>
 
                 <p>
-                    Membuat aplikasi web dan antarmuka menggunakan HTML, 
+                    Membuat aplikasi web dan antarmuka menggunakan HTML,
                     CSS, JavaScript, PHP, dan Laravel.
                 </p>
 
@@ -145,7 +145,7 @@
                 </h3>
 
                 <p>
-                    Menulis query SQL, mengelola data relasional, 
+                    Menulis query SQL, mengelola data relasional,
                     dan mengimplementasikan operasi CRUD.
                 </p>
 
@@ -164,7 +164,7 @@
                 </h3>
 
                 <p>
-                    Membangun dan mengevaluasi model klasifikasi 
+                    Membangun dan mengevaluasi model klasifikasi
                     menggunakan Python dan library Machine Learning.
                 </p>
 
@@ -394,18 +394,13 @@
                 All
             </button>
 
-            <button class="filter-btn" data-filter="data" type="button">
-                Data
-            </button>
-
             <button class="filter-btn" data-filter="web" type="button">
                 Web
             </button>
 
-            <button class="filter-btn" data-filter="java" type="button">
-                Java
+            <button class="filter-btn" data-filter="ml" type="button">
+                Machine Learning
             </button>
-
         </div>
 
         <div class="project-grid">
@@ -508,7 +503,7 @@
             </h2>
 
             <p>
-                Jangan ragu untuk menghubungi saya terkait peluang kerja, 
+                Jangan ragu untuk menghubungi saya terkait peluang kerja,
                 kolaborasi, atau sekadar menyapa.
             </p>
 
