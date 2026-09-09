@@ -51,13 +51,13 @@
                 <li><a href="{{ route('home') }}#projects">Proyek</a></li>
                 <li><a href="{{ route('home') }}#contact">Kontak</a></li>
 
-                @auth
+                <!-- @auth
                 <li>
                     <a href="{{ route('admin.projects.index') }}" class="nav-admin">
                         Admin
                     </a>
                 </li>
-                @endauth
+                @endauth -->
 
                 <li>
                     <!-- <a
