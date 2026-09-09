@@ -17,13 +17,12 @@
             </h1>
 
             <h2>
-                Informatics Student &amp; Aspiring Data Professional
+                Informatics Graduate &amp; Aspiring Fullstack Developer.
             </h2>
 
             <p class="hero-description">
-                I enjoy turning data and ideas into useful digital solutions.
-                I am interested in Data Science, Back-End Development,
-                and Front-End Development.
+                I enjoy building web applications that solve real problems, with a focus on Back-End Development using PHP and Laravel.
+                I also have experience in Machine Learning through my undergraduate thesis.
             </p>
 
             <div class="hero-buttons">
@@ -98,10 +97,12 @@
             </h2>
 
             <p class="about-intro">
-                I am an Informatics student with an interest in
-                software development, databases, and machine learning.
-                I enjoy turning requirements and ideas into structured,
-                practical, and user-friendly digital solutions.
+                I am a fresh Informatics graduate with a focus on Back-End Development 
+                using PHP and Laravel/CodeIgniter. I've built and delivered real projects, 
+                including an internal company system during my internship that is now actively 
+                used. I enjoy translating requirements into structured, working solutions, and 
+                I have a background in Machine Learning through my undergraduate thesis. I'm 
+                currently seeking opportunities as a Junior Backend/Fullstack Developer.
             </p>
 
         </div>
@@ -160,8 +161,7 @@
 
                 <p>
                     Building and evaluating classification models
-                    using Python and machine-learning libraries
-                    such as XGBoost.
+                    using Python and machine-learning libraries.
                 </p>
 
             </article>

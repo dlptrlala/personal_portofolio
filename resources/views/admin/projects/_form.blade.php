@@ -23,9 +23,8 @@
         <select id="category" name="category" required>
 
             @foreach([
-                'data' => 'Data',
+                'ml' => 'Machine Learning',
                 'web' => 'Web',
-                'java' => 'Java',
                 'other' => 'Other'
             ] as $value => $label)
 

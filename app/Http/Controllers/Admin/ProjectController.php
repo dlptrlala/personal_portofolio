@@ -86,7 +86,7 @@ class ProjectController extends Controller
 
         return $request->validate([
             'title' => ['required', 'string', 'max:150'],
-            'category' => ['required', 'in:data,web,java,other'],
+            'category' => ['required', 'in:web,ml,other'],
             'category_label' => ['required', 'string', 'max:80'],
             'description' => ['required', 'string', 'max:1000'],
             'technology' => ['nullable', 'string', 'max:255'],
