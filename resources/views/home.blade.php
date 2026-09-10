@@ -395,7 +395,7 @@
             </button>
 
             <button class="filter-btn" data-filter="web" type="button">
-                Web
+                Website
             </button>
 
             <button class="filter-btn" data-filter="ml" type="button">
